@@ -9,10 +9,7 @@
         window.onload = function () {
             const destination = window.location.href;
             if (window.location.href.includes("sanjay900.github.io/guitar-configurator")) {
-                const redirectLocation = window.location.href.replace(
-                    "sanjay900.github.io",
-                    "santroller.github.io"
-                );
+                const redirectLocation = "https://santroller.tangentmc.net"
                 document.getElementById("body").innerHTML = "guitar-configurator has moved to Santroller !<br/><br/>Redirecting to " + redirectLocation + " ...";
                 window.location.href = redirectLocation;
             }
